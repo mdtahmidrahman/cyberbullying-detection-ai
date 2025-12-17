@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+nltk
+xgboost
+seaborn
+matplotlib
+google-api-python-client
+python-dotenv
