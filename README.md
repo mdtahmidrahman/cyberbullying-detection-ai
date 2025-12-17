@@ -30,10 +30,27 @@ The backend uses a TF‑IDF vectoriser and several pre‑trained classification 
 
 ## Features
 
-- **Text analysis** – Real‑time prediction with confidence scores.
+- **Text analysis** – Real-time prediction with confidence scores.
 - **YouTube analysis** – Fetches all comments, processes them, and provides a downloadable CSV of results.
 - **Model selection** – Choose from any trained model via a sidebar dropdown.
 - **Technical details** – Expandable view shows original text, processed tokens, model used, and vector dimensions.
+
+---
+
+| **Home Page**                  | **Model Selection**                  |
+|:------------------------------:|:------------------------------------:|
+| ![Home Page](images/home_page.png) | ![Model Selection](images/model_selection.png) |
+| *The landing page of the application.* | *Sidebar allowing users to switch between trained models.* |
+
+| **Text Analysis Result**       | **YouTube Analysis Input**           |
+|:------------------------------:|:------------------------------------:|
+| ![Text Analysis Result](images/text_result.png) | ![YouTube Input](images/youtube_input.png) |
+| *The application detects toxicity and displays confidence.* | *Input field for YouTube video URL.* |
+
+| **YouTube Analysis Loading**   | **YouTube Analysis Result**          |
+|:------------------------------:|:------------------------------------:|
+| ![YouTube Loading](images/youtube_loading.png) | ![YouTube Result](images/youtube_result.png) |
+| *Fetching comments through YouTube API.* | *Analysis of top comments from the video.* |
 
 ---
 
